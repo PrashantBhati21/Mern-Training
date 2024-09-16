@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: rgb(142, 153, 129);
+  }
+  h1 {
+    margin-left: 5px;
+  }
+  .btn {
+    padding: 2px;
+    border-radius: 4px;
+    background-color: #dddd;
+  }
+  input {
+    padding: 6px 2px;
+    min-width: 200px;
+    font-size: 18px;
+    outline: none;
+    margin-bottom: 5px;
+  }
+  .form-container {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  form {
+    width: 50%;
+  }
